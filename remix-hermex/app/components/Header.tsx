@@ -1,6 +1,4 @@
 import { Link, Form } from "react-router";
-import { useState } from "react";
-import logo from "../assets/logo-light.png";
 import { MdSearch, MdCategory } from "react-icons/md";
 
 export function Header() {
@@ -11,7 +9,7 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="shrink-0">
             <img
-              src={logo}
+              src="/logo-light.png"
               alt="Hermex"
               className="h-6 lg:h-8 cursor-pointer hover:opacity-80 transition-opacity"
             />
